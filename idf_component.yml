@@ -1,0 +1,21 @@
+version: 1.0.0
+description: SPS30 Particulate Matter Sensor for Air Quality Monitoring and 
+  Control driver for ESP-IDF using the I2C Master API.
+url: https://github.com/TheBigBoschi/sps30
+maintainers:
+- Andrea Cerfoglia <andrea.cerfoglia99@gmail.com>
+targets:
+- esp32
+- esp32s2
+- esp32s3
+- esp32c2
+- esp32c3
+- esp32c6
+- esp32h2
+- esp32p4
+
+dependencies:
+  idf:
+    version: '>=5.2'
+  espressif/i2c_bus: ^1.0.0
+license: MIT

@@ -1,0 +1,49 @@
+# Build directories
+build/
+dist/
+
+# Configuration files
+sdkconfig
+sdkconfig.old
+sdkconfig.defaults.esp32
+sdkconfig.defaults.esp32s2
+sdkconfig.defaults.esp32s3
+sdkconfig.defaults.esp32c3
+sdkconfig.defaults.esp32c6
+sdkconfig.defaults.esp32h2
+sdkconfig.defaults.esp32p4
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Object and archive files
+*.o
+*.a
+*.elf
+*.bin
+*.map
+
+# Partitions
+partition_table/
+
+# Dependencies
+dependencies/
