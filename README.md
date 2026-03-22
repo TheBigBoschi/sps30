@@ -14,16 +14,6 @@ Connect the sensor to your ESP board as follows:
 
 For better reliability a 4.7K to 10K resistor between VDD and SCL and SDA is recommended.
 
-## How to use as a component
-
-1.  Add the component to your project's dependencies in the `idf_component.yml` file:
-    ```yaml
-    dependencies:
-      thebigboschi/sps30: "^1.0.0"
-    ```
-2.  Run `idf.py reconfigure` to download and install the component.
-3.  In your `main.c`, you can now include the header with `#include "sps30.h"` and use the functions from the library.
-
 ## How to run the example
 
 The provided example initializes the sensor, reads its metadata, and then continuously reads and prints measurement data.
